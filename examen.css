@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-color:#c0dbf3 ;
+}
+.home{
+    display: flex;
+    flex-wrap:wrap; 
+}
+.CERO{
+
+    flex: 1;
+    padding:25px;
+    background-color: rgb(141, 236, 157);
+   min-width: 250px; 
+   
+}
+.UNO{
+    flex: 2;
+    padding:25px;
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    margin-bottom:0px;
+    align-items: unset;
+}
+.DOS{
+    flex:3;
+    padding:25px;
+    background-color: rgb(221, 116, 241);
+    margin: 20px;
+    min-width: 250px; 
+}
+table {
+    border:palevioletred 5px solid;
+    display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+}
+    .caja {
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        background:rgb(247, 187, 76);
+        margin: 0 0 25px;
+        overflow: hidden;
+        padding: 20px;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+     }
+        
+     .yy{
+         max-width:100% ;
+       
+    }
+     .mm{
+         image-orientation: from-image;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        background: #e4712e;
+        margin: 0 0 25px;
+        overflow: hidden;
+        padding: 20px;
+        display: flex;
+        flex-wrap:wrap;
+        text-align: center;
+        max-width:100% ;
+     
+      
+
+
+    }
+    .ss{
+        image-orientation: from-image;
+       font-family: sans-serif;
+       font-size: 18px;
+       font-weight: 400;
+       color: #ffffff;
+       background: #ecb08e;
+       margin: 0 0 25px;
+       overflow: hidden;
+       padding: 20px;
+       display: flex;
+       flex-wrap:wrap;
+       text-align: center;
+       max-width:100% ;
+    }
+    .mm{
+        image-orientation: from-image;
+       font-family: sans-serif;
+       font-size: 18px;
+       font-weight: 400;
+       color: #ffffff;
+       background: #e4712e;
+       margin: 0 0 25px;
+       overflow: hidden;
+       padding: 20px;
+       display: flex;
+       flex-wrap:wrap;
+       text-align: center;
+       max-width:100% ;
+    }
+    image{
+        max-width :100%;
+    }
+td{
+    background-color: lightblue;
+    max-width:100% ;
+    transition: 0.4s linear;
+}
+
+footer{
+    text-align: center;
+    background:gainsboro ;
+}
